@@ -2,8 +2,8 @@ const imagePreview = document.getElementById('img-preview');
 const imageUploader = document.getElementById('img-uploader');
 const imageUploadbar = document.getElementById('img-upload-bar');
 
-const CLOUDINARY_URL = ``
-const CLOUDINARY_UPLOAD_PRESET = '';
+const CLOUDINARY_URL = `https://api.cloudinary.com/v1_1/eduardomendozavc/image/upload/`;
+const CLOUDINARY_UPLOAD_PRESET = 'vlnir0f9';
 
 imageUploader.addEventListener('change', async (e) => {
     // console.log(e);
